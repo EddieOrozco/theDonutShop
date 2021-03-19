@@ -1,0 +1,38 @@
+#selections {
+  padding: 6rem;
+}
+
+#selections .section-title {
+  /* padding: 2rem; */
+  text-align: center;
+  font-size: 3rem;
+}
+
+#selections .card-group {
+  margin-top: 3rem;
+}
+
+#selections .card {
+  border: none;
+}
+
+#selections .card-body {
+  border-radius: none;
+  text-align: center;
+}
+
+#selections .card-body .btn {
+  border-radius: none;
+  width: 70%;
+  padding: 21px 34px;
+  font-size: 15px;
+  text-transform: capitalize;
+  letter-spacing: 0.15em;
+  border: 2px solid #c9f0f0;
+  color: black;
+}
+
+#selections .card-body .btn:hover {
+  background-color: #c9f0f0;
+  color: #cd0416;
+}

@@ -1,0 +1,33 @@
+#hours {
+  padding: 6rem;
+}
+
+#hours .donut-shop-img {
+  padding: 0;
+  /* background-color: red; */
+}
+
+#hours .donut-shop-img img {
+  height: 100%;
+  width: 100%;
+}
+
+#hours .hours-section {
+  padding: 0;
+}
+
+#hours .section-title {
+  text-align: center;
+  font-size: 2.3rem;
+  padding-bottom: 20px;
+}
+
+#hours .operation-hours {
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#hours .operation-hours .main-hours {
+  padding-bottom: 30px;
+}
