@@ -1,3 +1,12 @@
+.navbar-toggler {
+  background-color: #cd0416;
+  justify-content: center;
+}
+.text-white {
+  font-size: 1.7rem;
+  color: #fff;
+}
+
 /* MAIN MENU LAYOUT  */
 #menu {
   padding: 6rem;
@@ -10,7 +19,7 @@
 }
 
 #menu .card-group {
-  margin-top: 1.2rem;
+  margin-top: 3rem;
 }
 
 #menu .card {
@@ -67,76 +76,4 @@
   font-size: 1.2rem;
   font-weight: 300;
   margin-top: 20px;
-}
-
-@media (max-width: 991.98px) {
-  #menu .menu-title {
-    font-size: 2rem !important;
-  }
-  #menu .menu-quote {
-    font-size: 1.5rem !important;
-  }
-}
-
-@media (max-width: 1199.98px) {
-  #menu .card-body .btn {
-    width: 90%;
-    padding: none;
-  }
-  #menu .menu-title {
-    font-size: 2rem !important;
-  }
-  #menu .menu-quote {
-    font-size: 1rem !important;
-  }
-
-  #menu .story {
-    font-size: 1.1rem;
-    line-height: 1.2rem;
-    width: 100%;
-  }
-}
-
-/* @media (max-width: 991.98px) {
-  #menu .card-body .btn {
-    width: 90%;
-    padding: none;
-  }
-  #menu .menu-title {
-    font-size: 2rem;
-  }
-
-  #menu .story {
-    font-size: 1.1rem;
-    line-height: 1.2rem;
-    width: 100%;
-  }
-} */
-
-/* Donuts */
-
-.view {
-  height: 550px;
-  position: relative;
-  overflow: hidden;
-}
-
-.view img {
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-/* GALLERY */
-
-.gallery .card-gallery {
-  padding-top: 20px;
-}
-
-/* Story */
-.story-text {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
 }
